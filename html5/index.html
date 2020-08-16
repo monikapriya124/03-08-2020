@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html practicsse</title>
+    <style type="text/css">
+    #details{
+        border: 1px solid red;
+        margin: 3px;
+        padding: 5px;
+    }
+    .data{
+        border: 3px solid blue;
+    }
+    .details{
+        padding: 5px;
+        margin: 3px;
+    } 
+    </style>
 </head>
 <body>
-    <h1>Welcome to web design</h1>
+<!--   <h1>Welcome to web design</h1>
     <h2>Welcome to web design</h2>
     <h3>Welcome to web design</h3>
     <h4>Welcome to web design</h4>
@@ -14,7 +28,6 @@
     <h6>Welcome to web design</h6>
     <p>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
     <img src="1.JPG" width="40%" length="30%" alt="picture">
-<!-- lists in html-->
 <ul type="disc">
     <li>Monika</li>
     <li>priya</li>
@@ -34,6 +47,79 @@
     <dt>css3</dt>
     <dd>cascading style sheet</dd>
 </dl>
-
+<table border="1">
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>profession</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Janu</td>
+        <td>20</td>
+        <td>30000</td>
+        <td>police</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>harshitha</td>
+        <td>22</td>
+        <td>40000</td>
+        <td>doctor</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Monikapriya</td>
+        <td>21</td>
+        <td>50000</td>
+        <td>engineer</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>nadiya</td>
+        <td>21</td>
+        <td>30000</td>
+        <td>professors</td>
+    </tr>
+</table>
+<div style="background-color: aquamarine;">
+    <h1 style="color: rgb(211, 150, 211);">R.MonikaPriya</h1>
+    <h4>monikapriya0123@gmail.com</h4>
+    <p style="background-color: darkgreen;">i am apssdc student</p>
+</div>
+Forms in HTML
+<form>
+    <label for="Username">Username:</label>
+    <br>
+    <input type="text" name="Username">
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="Gender" value="male">Male
+    <input type="radio" name="Gender" value="female">Female
+    <br>
+    <fieldset>
+    <legend>languages known:</legend>
+    <label for="telugu">Telugu</label>
+    <input type="checkbox" name="telugu" value="telugu">
+    <label for="Hindi">Hindi</label>
+    <input type="checkbox" name="Hindi" value="Hindi">
+    <label for="English">English</label>
+    <input type="checkbox" name="English" value="English">
+</fieldset>
+</form>-->
+<h1 style="color: darkmagenta;">APSSDC</h1>
+<p style="background-color: darkturquoise;">Web design using reactJs</p>
+<div id="details">
+    <h1>R.MonikaPriya</h1>
+    <h4>Apssdc student</h4>
+    <p>intersed in web design using reactJs</p>
+</div>
+<div class="details data">
+    <h1>R.MonikaPriya</h1>
+    <h4>Apssdc student</h4>
+    <p>intersed in web design using reactJs</p>
+</div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+.card{
+    border:2px solid rgb(150, 39, 39) ;
+    background-color: #c779a4;
+    text-align: center;
+    width: 300px;
+}
+a{
+    color: #c4544c;
+}
+img{
+    width: 150px;
+}
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+body{
+    background-color:rgb(175, 114, 194);
+}
+/*media queries
+for mobiles 320px - 425px
+for tablet 426px - 768px
+for laptop 769px - 1024px or 1440px or above
+*/
+
+@media screen and (min-width: 425px){
+.card,.google{
+    border: 2px solid #ddd;
+    background-color: yellow;
+    text-align: center;
+    width: 300px;
+    margin: 5px;
+}
+a{
+    color: blueviolet;
+}
+img{
+    width:150px
+}
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .card,.google{
+        border: 2px solid #ddd;
+        background-color: green;
+        text-align: center;
+        width: 300px;
+        margin: 5px;
+    }
+}

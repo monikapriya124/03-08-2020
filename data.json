@@ -1,0 +1,34 @@
+{
+    "details":{
+        "name":"APSSDC",
+        "age":"5",
+        "courses":["webdesign using Reactjs","pyhton","Data Analysis","Machine learning"]
+    },
+    "trainers":[
+        {
+            "name":"N.Rajesh",
+            "experience":"5years",
+            "teaching":["scracth","andriod","web development","automation in UI"],
+            "designation":"Multi skill trainer"
+        },
+        {
+            "name":"monika",
+            "experience":"4years",
+            "teaching":["scracth","andriod","web development","automation in UI"],
+            "designation":"Multi skill trainer"
+
+        },
+        {
+        "name":"def",
+        "experience":"3years",
+        "teaching":["scracth","andriod","web development","automation in UI"],
+        "designation":"Multi skill trainer"
+        },
+        {
+            "name":"abc",
+            "experience":"2years",
+            "teaching":["scracth","andriod","web development","automation in UI"],
+            "designation":"Multi skill trainer"
+        }
+    ]
+}
